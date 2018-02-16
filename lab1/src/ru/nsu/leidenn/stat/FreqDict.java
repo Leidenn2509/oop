@@ -26,8 +26,10 @@ public class FreqDict {
         list.sort((a, b) -> b.getValue() - a.getValue());
 
         for(Map.Entry<String, Integer> a : list) {
-            writer.write(a.getKey()); writer.write(",");
-            writer.write(a.getValue().toString()); writer.write(",");
+            writer.write(a.getKey());
+            writer.write(",");
+            writer.write(a.getValue().toString());
+            writer.write(",");
             writer.write(String.format("%.2f", (double) a.getValue() / size * 100));
             writer.write("\n");
         }
