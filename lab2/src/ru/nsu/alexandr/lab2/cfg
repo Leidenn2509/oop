@@ -1,0 +1,9 @@
+define ru.nsu.alexandr.lab2.command.Define
+div ru.nsu.alexandr.lab2.command.Div
+mul ru.nsu.alexandr.lab2.command.Mul
+pop ru.nsu.alexandr.lab2.command.Pop
+print ru.nsu.alexandr.lab2.command.Print
+push ru.nsu.alexandr.lab2.command.Push
+sqrt ru.nsu.alexandr.lab2.command.Sqrt
+sub ru.nsu.alexandr.lab2.command.Sub
+sum ru.nsu.alexandr.lab2.command.Sum
