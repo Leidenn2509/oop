@@ -6,4 +6,9 @@ public class CalcException {
             super(msg);
         }
     }
+
+    public static class EmptyStack extends Exception {
+        public EmptyStack(String msg) { super(msg); }
+    }
+
 }
